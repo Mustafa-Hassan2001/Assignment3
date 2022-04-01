@@ -1,0 +1,49 @@
+#instance20_1.txt
+#area [0, max_x] x [0, max_y]
+100	100
+#number of points num_pt
+20
+#coordinates
+75	63
+64	25
+86	16
+89	51
+0	58
+37	91
+92	12
+51	99
+75	20
+72	78
+58	85
+95	93
+56	19
+36	96
+14	89
+9	89
+18	40
+80	3
+56	69
+54	22
+#end of instance
+#Edges of the MST by Prim’s algorithm:
+0	9	18
+9	10	21
+10	18	18
+10	7	21
+7	13	18
+13	5	6
+5	14	25
+14	15	5
+0	3	26
+3	2	38
+2	6	10
+2	8	15
+8	1	16
+1	19	13
+19	12	5
+2	17	19
+9	11	38
+15	4	40
+4	16	36
+#The total overlap is 39
+#The reduction rate is 0.10

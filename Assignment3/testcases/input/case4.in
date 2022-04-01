@@ -1,0 +1,27 @@
+#instance10_1.txt
+#area [0, max_x] x [0, max_y]
+100	100
+#number of points num_pt
+10
+#coordinates
+0	0
+0	90
+70	100
+100	55
+30	30
+30	70
+70	90
+45	85
+55	60
+45	0
+#end of instance
+#Edges of the MST by Prim’s algorithm:
+0	9	45
+9	4	45
+4	5	40
+5	7	30
+7	6	30
+6	2	10
+7	8	35
+5	1	50
+8	3	50

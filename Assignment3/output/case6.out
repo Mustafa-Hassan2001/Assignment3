@@ -1,0 +1,32 @@
+p[1].index = 1;
+p[1].x = 64;
+p[1].y = 25;
+p[1].parent = 8;
+p[1].num_children = 1;
+p[1].child[8] = {19};
+p[1].overlap_hv = -1;
+p[1].overlap_vh = -1;
+
+p[0].index = 0, .num_children = 2, .child[0] = 9, .child[1] = 3
+p[9].index = 9, .num_children = 2, .child[0] = 10, .child[1] = 11
+p[10].index = 10, .num_children = 2, .child[0] = 18, .child[1] = 7
+p[18].index = 18, .num_children = 0
+p[7].index = 7, .num_children = 1, .child[0] = 13
+p[13].index = 13, .num_children = 1, .child[0] = 5
+p[5].index = 5, .num_children = 1, .child[0] = 14
+p[14].index = 14, .num_children = 1, .child[0] = 15
+p[15].index = 15, .num_children = 1, .child[0] = 4
+p[4].index = 4, .num_children = 1, .child[0] = 16
+p[16].index = 16, .num_children = 0
+p[11].index = 11, .num_children = 0
+p[3].index = 3, .num_children = 1, .child[0] = 2
+p[2].index = 2, .num_children = 3, .child[0] = 6, .child[1] = 8, .child[2] = 17
+p[6].index = 6, .num_children = 0
+p[8].index = 8, .num_children = 1, .child[0] = 1
+p[1].index = 1, .num_children = 1, .child[0] = 19
+p[19].index = 19, .num_children = 1, .child[0] = 12
+p[12].index = 12, .num_children = 0
+p[17].index = 17, .num_children = 0
+
+The total overlap is 39
+The reduction rate is 0.10
